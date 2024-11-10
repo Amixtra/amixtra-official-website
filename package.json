@@ -1,9 +1,7 @@
 {
-  "name": "next-personal-web-app",
+  "name": "amixtra-official-website",
   "version": "0.1.0",
-  "repository": "https://github.com/dedeard/next-personal-web-app.git",
-  "author": "dede ariansya <me@dedeard.my.id>",
-  "license": "MIT",
+  "author": "jeon ilshin",
   "private": false,
   "scripts": {
     "dev": "next dev",
