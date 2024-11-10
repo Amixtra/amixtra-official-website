@@ -3,7 +3,6 @@ import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import { Lato } from 'next/font/google'
-import { HOST } from '@/constans/common'
 import noise from '@/assets/noise.gif'
 import Providers from './Providers'
 import CursorFollower from './components/CursorFollower'
@@ -15,7 +14,6 @@ const lato = Lato({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL(HOST),
   icons: {
     icon: [
       {

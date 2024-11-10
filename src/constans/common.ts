@@ -1,7 +1,5 @@
 import { FiHome, FiGlobe, FiClipboard, FiMail, FiUser } from 'react-icons/fi'
 
-export const HOST = process.env.NEXT_PUBLIC_HOST || 'http://localhost:3000'
-
 export const NAV_ITEMS = [
   { path: '/', label: 'Home', Icon: FiHome },
   { path: '/blog', label: 'Blog', Icon: FiGlobe },
